@@ -9,7 +9,7 @@
            <form method="POST" action="{{Route('sort', $cate->id_kateg)}}" >
                <input type="hidden" name="_token" value="{{ csrf_token() }}">
                <span class="input-field">
-        <label style="padding-left: 15px; color: white">Rikiuoti pagal </label>
+        <label style="padding-left: 15px; color: white">Rikiuoti </label>
         <select name="orderBy" id="orderBy"  class="form-control" style="width: fit-content; display:inherit">
             <option value="">naujausi viršuje</option>
             <option value="asc">pigiausi viršuje</option>

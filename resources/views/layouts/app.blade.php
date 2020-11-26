@@ -75,7 +75,7 @@
         <div class="col-sm-2 img-col">
             <div class="cart-item">
             <a href="{{asset('cart')}}">
-            <img class="cart" src="{{asset('images/cart.png')}}"  />
+            <img class="cart" src="{{asset('images/krepselis.jpg')}}"  />
             </a>
             <div class="cart_count"><span>
                     @if(session()->has('kiekis'))

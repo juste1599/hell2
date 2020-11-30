@@ -608,7 +608,10 @@ hr{
     position: relative;
     z-index: 1;
 }
-
+.table-hover>tbody>tr:hover
+{
+   background-color: #6A040F;
+}
 #register{
     color: #E85D04;
 }

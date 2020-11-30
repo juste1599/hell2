@@ -6,20 +6,18 @@
     <div class="col-lg-10 offset-lg-1">
         <div  class="container-fluid" id="laisko_krastai">
             <div >
-                <img src="{{asset('images/1r.gif')}}" />
+                <img src="{{asset('images/fire.gif')}}" />   <img src="{{asset('images/1r.gif')}}" /><img src="{{asset('images/fire.gif')}}" />
             </div>
-            <p> <strong>Pramogos pragare</strong> - naujausia pramogų sritis šių dienų pandemijos kamuojamai visuomeniai
+            <p> <strong>Pirmasis pragaro ratas</strong> - Dar vadinamas Limbu. Čia yra
+                nekrikštytų kūdikių, senovės didvyrių ir išminčių vėlės. Čia gyvena ir pats Vergilijus.
             </p>
-            <p> Naudodamiesi mūsų sistema galite išsiaiškinti kokios yra jūsų didžiausios baimės ir su tinkamu pasiruošimu perlipti per savo galimybių ribas.
-            </p>
+
             <br>
-            <p>Mūsų siūlomi iššūkiai leis jums save išstumti iš komforto zonos ir suprasti, kad nėra plano B!
-                Siūlomos paslaugos bei iššūkiai yra įvairūs bei pritaikomi kiekvienai amžiaus grupei ir visus privers save išbandyti bei tūrėti puikų laiką,
-                o pragaro tematika paaštrins visų pojūčius. </p>
-            <p>Mūsų anketa atrinks tinkamiausias  pramogas pagal jūsų sugedimo lygį (ir amžių).</p>
+            <p> Jums rekomenduoja išbandyti kūdikių vėmalų jūrą, pasinaudoti senovės herojų prakaito pirtimi ar klausyti kankinančių Vergilijaus poemų.</p>
+
             <br>
             <p>
-                {{-- <a style="display: contents" class="fa fa-envelope" href ="{{asset('email')}}"></a>--}}
+
             </p>
 
         </div>

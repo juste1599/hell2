@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('turinys')
-    <link href="{{ asset('pay') }}">
+    <link href="{{ asset('shop1') }}">
 
     <a style="margin: 0 0 15px 15px;" href="{{URL::previous()}}">
         <svg class="bi bi-chevron-compact-left" width="1.5em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -172,60 +172,44 @@
 
                                 function myRatas() {
                                     var ratas = Math.floor((Math.random() * 9) + 1);
-
-                            //  alert(ratas);
+                                    var text;
+                              alert(ratas);
                                 switch (ratas) {
-                                    case "1":
-                                            window.open("pirmasRatas", "_blank", "toolbar=yes, scrollbars=yes, resizable=yes, top=250,left=500,width=450, height=150");
+                                    case 1:
+                                        text="pirmasRatas";
                                         break;
-                                    case "2":
-                                            window.open("antrasRatas", "_blank", "toolbar=yes, scrollbars=yes, resizable=yes, top=250,left=500,width=450, height=150");
-
+                                    case 2:
+                                        text="antrasRatas";
                                         break;
-                                    case "3":
-
-                                            window.open("treciasRatas", "_blank", "toolbar=yes, scrollbars=yes, resizable=yes, top=250,left=500,width=450, height=150");
-
+                                    case 3:
+                                        text="treciasRatas";
                                         break;
-                                    case "4":
-
-                                            window.open("ketvirtasRatas", "_blank", "toolbar=yes, scrollbars=yes, resizable=yes, top=250,left=500,width=450, height=150");
-
+                                    case 4:
+                                        text="ketvirtasRatas";
                                         break;
-                                    case "5":
-
-                                            window.open("penktasRatas", "_blank", "toolbar=yes, scrollbars=yes, resizable=yes, top=250,left=500,width=450, height=150");
-
+                                    case 5:
+                                        text="penktasRatas";
                                         break;
-                                    case "6":
-
-                                            window.open("sestasRatas", "_blank", "toolbar=yes, scrollbars=yes, resizable=yes, top=250,left=500,width=450, height=150");
-
+                                    case 6:
+                                        text="sestasRatas";
                                         break;
-                                    case "7":
-
-                                            window.open("septintasRatas", "_blank", "toolbar=yes, scrollbars=yes, resizable=yes, top=250,left=500,width=450, height=150");
-
+                                    case 7:
+                                        text="septintasRatas";
                                         break;
-                                    case "8":
-
-                                            window.open("astuntasRatas", "_blank", "toolbar=yes, scrollbars=yes, resizable=yes, top=250,left=500,width=450, height=150");
-
+                                    case 8:
+                                        text="astuntasRatas";
                                         break;
-                                    case "9":
-
-                                            window.open("devintasRatas", "_blank", "toolbar=yes, scrollbars=yes, resizable=yes, top=250,left=500,width=450, height=150");
+                                    case 9:
+                                        text="devintasRatas";
                                         break;
-
+                                    default:
+                                        text = "Looking forward to the Weekend";
+                                }
+                                alert(text);
+                                    //document.getElementById("mygtukas1").innerHTML = text;
+                                    window.open(text, "_blank", "toolbar=yes, scrollbars=yes, resizable=yes, top=150,left=500,width=1200, height=500");
                                 }
 
-                                }
-
-                                 {{--   var child;
-                                    var bu = document.getElementById("mygtukas2");
-                                    function myPay() {
-                                        child = window.open("pirmasRatas", "_blank", "toolbar=yes, scrollbars=yes, resizable=yes, top=250,left=500,width=450, height=150");
-                                    }--}}
                                 </script>
 
                                 <style>

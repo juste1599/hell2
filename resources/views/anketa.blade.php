@@ -13,8 +13,7 @@
             <table id="cart" class="table table-hover table-condensed" >
                 <div class="form-group col-sm-7">
                     <div class="container-fuild">
-                        <h1 id="antraste">Anketa
-                        </h1>
+                        <h1 id="antraste" style="margin-left: 300px;">Anketa</h1>
                 </div>
                 <div class="container-fuild">
                     <div class="form-group col-sm-7">
@@ -80,6 +79,93 @@
                                 <input type="radio" id="age3" name="age" value="100">
                                 <label for="age3">Neauginu augintinio su uodega.</label><br>
                             </div>
+
+                            <div class="form-group col-lg-10">
+                                <h2> 6. Ar viska darai paskutinę dieną? </h2>
+                                <input type="radio" id="age1" name="age" value="30">
+                                <label for="age1">Ne, dirbu pavyzdingai.</label><br>
+                                <input type="radio" id="age2" name="age" value="60">
+                                <label for="age2">Taip, nu taip gaunasi.</label><br>
+                            </div>
+
+                            <div class="form-group col-lg-10">
+                                <h2> 7. Ar per karantiną ėjai į viešą renginį/susibūrimą?  </h2>
+                                <input type="radio" id="age1" name="age" value="30">
+                                <label for="age1">Taip, negaliu išbūti namuose.</label><br>
+                                <input type="radio" id="age2" name="age" value="60">
+                                <label for="age2">Ne, neinu gaudyti virusų, mane aprūpina internetas.</label><br>
+                                <input type="radio" id="age3" name="age" value="100">
+                                <label for="age3">Taip, reikėjo apsipirkti.</label><br>
+                            </div>
+
+                            <div class="form-group col-lg-10">
+                                <h2> 8. Ar mėgsti viršyti greitį?  </h2>
+                                <input type="radio" id="age1" name="age" value="30">
+                                <label for="age1">Taip, biškį.</label><br>
+                                <input type="radio" id="age2" name="age" value="60">
+                                <label for="age2">Ne, vairuoju pavyzdingai.</label><br>
+                                <input type="radio" id="age3" name="age" value="100">
+                                <label for="age3">Ne, mama neleidžia.</label><br>
+                                <input type="radio" id="age4" name="age" value="100">
+                                <label for="age4">Taip, reikia vis sistemą "pravalyti".</label><br>
+                            </div>
+
+                            <div class="form-group col-lg-10">
+                                <h2> 9. Ar eini per perėja kai yra raudona?  </h2>
+                                <input type="radio" id="age1" name="age" value="30">
+                                <label for="age1">Taip, tik kai skubu.</label><br>
+                                <input type="radio" id="age2" name="age" value="60">
+                                <label for="age2">Taip, visada kai nėra automobilių.</label><br>
+                                <input type="radio" id="age3" name="age" value="100">
+                                <label for="age3">Ne, gyvenimas nepabėgs.</label><br>
+                            </div>
+
+                            <div class="form-group col-lg-10">
+                                <h2> 10. Ar važiavote policijos mašina?  </h2>
+                                <input type="radio" id="age1" name="age" value="30">
+                                <label for="age1">Taip, buvo smagu.</label><br>
+                                <input type="radio" id="age2" name="age" value="60">
+                                <label for="age2">Taip, turėjote matyti "Faruose".</label><br>
+                                <input type="radio" id="age3" name="age" value="100">
+                                <label for="age3">Ne, vairuoju pats.</label><br>
+                            </div>
+
+                            <div class="form-group col-lg-10">
+                                <h2> 11. Žalgiris ar Rytas?  </h2>
+                                <input type="radio" id="age1" name="age" value="30">
+                                <label for="age1">Kai būnu Kaune Žalgiris, bijau užsitraukti rūstybę.</label><br>
+                                <input type="radio" id="age2" name="age" value="60">
+                                <label for="age2">Žalgiris.</label><br>
+                                <input type="radio" id="age3" name="age" value="100">
+                                <label for="age3">Rytas.</label><br>
+                                <input type="radio" id="age4" name="age" value="100">
+                                <label for="age4">Šiaip buvau už Šarą, o ne pačią komandą.</label><br>
+                            </div>
+
+                            <div class="form-group col-lg-10">
+                                <h2> 12. Ar dažnai prisijungete į paskaitą ir nueinate miegoti?  </h2>
+                                <input type="radio" id="age1" name="age" value="30">
+                                <label for="age1">Taip, sunku rytais būna.</label><br>
+                                <input type="radio" id="age2" name="age" value="60">
+                                <label for="age2">Ne, nes prižadina virdulys.</label><br>
+                                <input type="radio" id="age3" name="age" value="100">
+                                <label for="age3">Ne, žiūriu, veltui laiko neleidžiu</label><br>
+                                <input type="radio" id="age4" name="age" value="100">
+                                <label for="age4">Taip, bet nemiegu o dirbu.</label><br>
+                            </div>
+                            <div class="form-group col-lg-10">
+                                <h2> 13. Ar dažnai prisijungete į paskaitą ir nueinate miegoti?  </h2>
+                                <input type="radio" id="age1" name="age" value="30">
+                                <label for="age1">Taip, sunku rytais būna.</label><br>
+                                <input type="radio" id="age2" name="age" value="60">
+                                <label for="age2">Ne, nes prižadina virdulys.</label><br>
+                                <input type="radio" id="age3" name="age" value="100">
+                                <label for="age3">Ne, žiūriu, veltui laiko neleidžiu</label><br>
+                                <input type="radio" id="age4" name="age" value="100">
+                                <label for="age4">Taip, bet nemiegu o dirbu.</label><br>
+                            </div>
+
+
                             <div class="form-group col-sm-7">
 
                                 <script>

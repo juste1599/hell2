@@ -19,8 +19,7 @@
                     <div class="form-group col-sm-7">
                     </div>
                     <div class="row" style="color: white">
-                        <form id="ived"class="form-horizontal" method="post" action="{{Route('orderInsert')}}">
-                            <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                        <form class="form-horizontal" >
 
                             <div class="form-group col-lg-10">
                                 <h2> 1. Kaip valgote šaltibarščius?</h2>
@@ -167,15 +166,68 @@
 
 
                             <div class="form-group col-sm-7">
-
                                 <script>
+                                        <?php
+                                $ratas = rand(1,9);
+
+                                switch ($ratas) {
+                                    case "1":
+
+                                        function myPay() {
+                                            window.open("pirmasRatas", "_blank", "toolbar=yes, scrollbars=yes, resizable=yes, top=250,left=500,width=450, height=150");
+                                        }
+                                        break;
+                                    case "2":
+                                        function myPay() {
+                                            window.open("antrasRatas", "_blank", "toolbar=yes, scrollbars=yes, resizable=yes, top=250,left=500,width=450, height=150");
+                                        }
+                                        break;
+                                    case "3":
+                                        function myPay() {
+                                            window.open("treciasRatas", "_blank", "toolbar=yes, scrollbars=yes, resizable=yes, top=250,left=500,width=450, height=150");
+                                        }
+                                        break;
+                                    case "4":
+                                        function myPay() {
+                                            window.open("ketvirtasRatas", "_blank", "toolbar=yes, scrollbars=yes, resizable=yes, top=250,left=500,width=450, height=150");
+                                        }
+                                        break;
+                                    case "5":
+                                        function myPay() {
+                                            window.open("penktasRatas", "_blank", "toolbar=yes, scrollbars=yes, resizable=yes, top=250,left=500,width=450, height=150");
+                                        }
+                                        break;
+                                    case "6":
+                                        function myPay() {
+                                            window.open("sestasRatas", "_blank", "toolbar=yes, scrollbars=yes, resizable=yes, top=250,left=500,width=450, height=150");
+                                        }
+                                        break;
+                                    case "7":
+                                        function myPay() {
+                                            window.open("septintasRatas", "_blank", "toolbar=yes, scrollbars=yes, resizable=yes, top=250,left=500,width=450, height=150");
+                                        }
+                                        break;
+                                    case "8":
+                                        function myPay() {
+                                            window.open("astuntasRatas", "_blank", "toolbar=yes, scrollbars=yes, resizable=yes, top=250,left=500,width=450, height=150");
+                                        }
+                                        break;
+                                    case "9":
+                                        function myPay() {
+                                            window.open("devintasRatas", "_blank", "toolbar=yes, scrollbars=yes, resizable=yes, top=250,left=500,width=450, height=150");
+                                        }
+                                        break;
+
+                                }
+                                ?>
+
                                     var child;
                                     var bu = document.getElementById("mygtukas2");
                                     function myPay() {
-                                        child = window.open("pirmas", "_blank", "toolbar=yes, scrollbars=yes, resizable=yes, top=250,left=500,width=450, height=150");
-
+                                        child = window.open("pirmasRatas", "_blank", "toolbar=yes, scrollbars=yes, resizable=yes, top=250,left=500,width=450, height=150");
                                     }
                                 </script>
+
                                 <style>
                                      #mygtukas2
                                     {
@@ -192,8 +244,7 @@
                                     }
                                 </style>
                                 <div class="myg">
-
-                                    <button type="submit"class="btn" id="mygtukas2" disabled>Užbaigti anketą</button>
+                                    <button type=""class="btn" id="mygtukas2">Užbaigti anketą</button>
                                 </div>
                             </div>
 

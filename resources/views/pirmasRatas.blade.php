@@ -1,11 +1,13 @@
 @extends('layouts.app')
 
 @section('turinys')
-    <h1 id="antraste" >Jūs priklausote antram ratui</h1>
+    <h1 id="antraste" >Jūs priklausote pirmam ratui</h1>
     <hr>
     <div class="col-lg-10 offset-lg-1">
         <div  class="container-fluid" id="laisko_krastai">
-
+            <div >
+                <img src="{{asset('images/1r.gif')}}" />
+            </div>
             <p> <strong>Pramogos pragare</strong> - naujausia pramogų sritis šių dienų pandemijos kamuojamai visuomeniai
             </p>
             <p> Naudodamiesi mūsų sistema galite išsiaiškinti kokios yra jūsų didžiausios baimės ir su tinkamu pasiruošimu perlipti per savo galimybių ribas.

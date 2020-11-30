@@ -107,7 +107,7 @@
                 <li><a href="{{ route('home1')}}/">Pagrindinis</a></li>
                 <li><a id="products" href="{{ action('ShopController@index')}}">Pramogos</a></li>
                 <li><a href="{{ action('AboutController@index')}}">Apie mus</a></li>
-                <li><a href="{{ action('AboutController@index')}}">Anketa</a></li>
+                <li><a href="{{ action('anketaController@index')}}">Anketa</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
 

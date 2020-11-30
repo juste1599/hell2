@@ -40,7 +40,7 @@
                     <div class="form-group col-sm-7">
                         <h3 id="antraste">Užsakymo platesnė informacija</h3>
                     </div>
-                    <div class="row">
+                    <div class="row" style="color: white">
                         <form id="ived"class="form-horizontal" method="post" action="{{Route('orderInsert')}}">
                             <input type="hidden" name="_token" value="{{ csrf_token() }}">
                             <div class="form-group col-sm-7">

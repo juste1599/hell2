@@ -285,7 +285,9 @@ footer {
 #info1{
     color: #D00000;
 }
-
+.products{
+    color: white;
+}
 @media only screen and (max-width: 1199px){
     .product_description {
         padding-left: 30px;

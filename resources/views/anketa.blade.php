@@ -173,7 +173,7 @@
                                 function myRatas() {
                                     var ratas = Math.floor((Math.random() * 9) + 1);
                                     var text;
-                              alert(ratas);
+                            //  alert(ratas);
                                 switch (ratas) {
                                     case 1:
                                         text="pirmasRatas";
@@ -205,9 +205,9 @@
                                     default:
                                         text = "Looking forward to the Weekend";
                                 }
-                                alert(text);
+                                //alert(text);
                                     //document.getElementById("mygtukas1").innerHTML = text;
-                                    window.open(text, "_blank", "toolbar=yes, scrollbars=yes, resizable=yes, top=150,left=500,width=1200, height=500");
+                                    window.open(text, "_blank", "toolbar=yes, scrollbars=yes, resizable=yes, top=150,left=500,width=1550, height=500");
                                 }
 
                                 </script>

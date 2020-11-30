@@ -43,6 +43,18 @@ Route::group(['middleware' => 'auth'], function () {
     Route::post('/order','OrderController@insertOrder')->name('orderInsert');
     Route::get('/signout', 'AccController@signout');
     Route::get('/pay','PayController@index')->name('pay');
+    //anketai
+    Route::get('/anketa','anketaController@index')->name('anketa');
+    //anketos vaizdams
+    Route::get('/pirmasRatas','pirmasController@index')->name('pirmas');
+    Route::get('/antrasRatas','antrasController@index')->name('antras');
+    Route::get('/treciasRatas','treciasController@index')->name('trecias');
+    Route::get('/ketvirtasRatas','ketvirtasController@index')->name('ketvirtas');
+    Route::get('/penktasRatas','penktasController@index')->name('penktas');
+    Route::get('/sestasRatas','sestasController@index')->name('sestas');
+    Route::get('/septintasRatas','septintasController@index')->name('septintas');
+    Route::get('/astuntasRatas','astuntasController@index')->name('astuntas');
+    Route::get('/devintasRatas','devintasController@index')->name('devintas');
 });
 
 Auth::routes();

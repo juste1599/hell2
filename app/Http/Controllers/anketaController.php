@@ -25,6 +25,6 @@ class anketaController extends Controller
 
         }
 
-        return view('anketa', compact('allcategories','result', 'kr'));
+        return view('anketa', compact('allcategories','kr'));
     }
 }

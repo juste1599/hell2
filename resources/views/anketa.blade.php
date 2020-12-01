@@ -82,7 +82,7 @@
                             </div>
 
                             <div class="form-group col-lg-10">
-                                <h2> 7. Ar viska darai paskutinę dieną? </h2>
+                                <h2> 7. Ar viską darai paskutinę dieną? </h2>
                                 <input type="radio" id="age17" name="age7" value="30">
                                 <label for="age1">Ne, dirbu pavyzdingai.</label><br>
                                 <input type="radio" id="age27" name="age7" value="60">
@@ -185,7 +185,7 @@
                                 }
                                 //alert(text);
                                     //document.getElementById("mygtukas1").innerHTML = text;
-                                    window.open(text, "_blank", "toolbar=yes, scrollbars=yes, resizable=yes, top=150,left=500,width=1260 height=500");
+                                    window.open(text, "_blank", "toolbar=yes, scrollbars=yes, resizable=yes, top=150,left=500,width=1350 height=550");
                                 }
 
                                 </script>

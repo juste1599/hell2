@@ -40,7 +40,7 @@
             </p>
 
             <br>
-            <p> Jums rekomenduoja išbandyti nardymą kraujyje,krajinių medžių kirtimą ant išsiveržusio ugnikalnio.</p>
+            <p> Jums rekomenduoja išbandyti nardymą kraujyje, kraujinių medžių kirtimą ant išsiveržusio ugnikalnio.</p>
 
             <br>
             <p>

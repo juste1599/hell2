@@ -44,7 +44,7 @@
             </p>
 
             <br>
-            <p> Jums rekomenduoja išbandyti pasivaikščiojimą su trigalvia pabaisą, svogūnų pjaustymą, Gero vakaro šou su Liuciferiu</p>
+            <p> Jums rekomenduoja išbandyti pasivaikščiojimą su trigalve pabaisa, svogūnų pjaustymą, Gero vakaro šou su Liuciferiu</p>
 
             <br>
             <p>

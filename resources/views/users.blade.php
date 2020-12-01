@@ -4,12 +4,12 @@
 
     <div class="container">
         <div class="col-lg-8 offset-lg-1">
-            <table id="cart" class="table table-hover table-condensed" >
+            <table id="cart" class="table table-hover table-condensed" style="color: white" >
                 <thead>
                 <tr>
                     <th style="width:15%;border-bottom: 10px;">ID</th>
-                    <th style="width:20%;border-bottom: 10px;">Name</th>
-                    <th style="width:30%;border-bottom: 10px;">Email</th>
+                    <th style="width:20%;border-bottom: 10px;">Vardas</th>
+                    <th style="width:30%;border-bottom: 10px;">El. paštas</th>
                     <th style="width:5%"></th>
                     <th style="width:5%"></th>
                 </tr>

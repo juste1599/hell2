@@ -5,6 +5,29 @@
 
        <h1 id="antraste">{{$cate->pavadinimas}}</h1>
       <hr>
+     {{--  @foreach($allcategories as $category)--}}
+
+               {{--<div style = "height:200px; width: 500px; " >--}}
+{{--if( cate->id ==fk_kate)--}}
+                 {{--  @foreach($items as $item)
+@if($category->nuotraukospav == $item->id_preke)
+--}}
+                       <div style = "max-width: 100%;height: auto;" >
+                         {{--  <img src="{{ asset('/images') . '/' . $category->nuotraukospav . '.jpg'}}"width="1000" height="300">
+
+                           @endif
+                           @endforeach  --}} {{-- </div>--}}
+                       @if($cate->id_kateg==1)
+
+                           <img src="{{ asset('/images/1.jpg')}}"width="1000" height="300"/>
+                        @elseif($cate->id_kateg==2)
+                           <img src="{{ asset('/images/2.jpg')}}"width="1000" height="300"/>
+                           @endif
+                           <h1>{{$cate->id_kateg}}</h1>
+                       </div>
+   {{--        </div>--}}
+
+    {{--   @endforeach--}}
 
            <form method="POST" action="{{Route('sort', $cate->id_kateg)}}" >
                <input type="hidden" name="_token" value="{{ csrf_token() }}">

@@ -3,24 +3,24 @@
 @section('turinys')
 
     <ul class="col-md-6">
-        <h4 style="margin-left: 15px">Find order:</h4>
+        <h4 style="margin-left: 15px; color: white">Rasti užsakymą:</h4>
         @include('ordersearch')
 
 
 
     @if($allUz->count() === 0)
-        <p style="margin-left: 15px; padding-top: 10px">There is no orders.</p>
+        <p style="margin-left: 15px; padding-top: 10px">Užsakymų nėra.</p>
     @else
     <div class="container">
-        <div class="col-lg-8 offset-lg-1" style="padding-top: 20px">
-            <table class="table table-hover table-condensed" >
+        <div class="col-lg-8 offset-lg-1" style="padding-top: 20px; color: white">
+            <table class="table table-hover table-condensed" style="color: white">
                 <thead>
                 <tr style="border-bottom: 0px">
-                    <th style="width:15%;border-bottom: 10px;">Order ID</th>
-                    <th style="width:15%;border-bottom: 10px;">Order State</th>
-                    <th style="width:15%;border-bottom: 10px;">Date</th>
-                    <th style="width:15%;border-bottom: 10px;">Client ID</th>
-                    <th style="width:15%;border-bottom: 10px;">Cart ID</th>
+                    <th style="width:15%;border-bottom: 10px;">Užsakymo ID</th>
+                    <th style="width:15%;border-bottom: 10px;">Būsena</th>
+                    <th style="width:15%;border-bottom: 10px;">Data</th>
+                    <th style="width:15%;border-bottom: 10px;">Kliento ID</th>
+                    <th style="width:15%;border-bottom: 10px;">Kortelės ID</th>
                 </tr>
                 </thead>
                 <tbody>

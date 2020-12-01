@@ -3,6 +3,7 @@ html, body{
     height: 100%;
 }
 body {
+    background-color: #03071e;
 }
 a {
     color: #424242;
@@ -16,6 +17,9 @@ a:active{
 }
 .navbar-inverse .navbar-nav>li>a{
     color: #D7D7D7;
+}
+#img2 {
+    width: auto;
 }
 
 .dropdown-item {
@@ -102,9 +106,9 @@ footer {
     flex-direction: row;
 }
 #nameAlligator{
-    font-size: 32px;
+    font-size: 68px;
     margin: 0;
-    font-family: "Franklin Gothic Medium", fantasy;
+    font-family: cursive;
 }
 @media only screen and (max-width: 1200px) {
     #nameAlligator{ font-size: 26px;}
@@ -114,6 +118,9 @@ footer {
 }
 @media only screen and (max-width: 460px) {
     #nameAlligator{ display: none;}
+    #img2 {
+        display: none;
+    }
 }
 
 .cart{

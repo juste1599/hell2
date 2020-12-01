@@ -70,7 +70,7 @@
             <img class="log" src="{{asset('images/logotipas.gif')}}" />
         </div>
         <div class="col-sm-8 ">
-            <h1 id="nameAlligator">Pramogos pragare</h1>
+            <h1 id="nameAlligator">PRAMOGOS PRAGARE</h1>
         </div>
         <div class="col-sm-2 img-col">
             <div class="cart-item">

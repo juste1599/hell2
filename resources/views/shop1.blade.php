@@ -19,23 +19,23 @@
                            @endforeach  --}} {{-- </div>--}}
                        @if($cate->id_kateg==1)
 
-                               <img src="{{ asset('/images/1.jpg')}}"width="1324" height="300"/><br>
+                               <img id="img2" src="{{ asset('/images/1.jpg')}}"width="1324" height="300"/><br>
                         @elseif($cate->id_kateg==2)
-                           <img src="{{ asset('/images/2.jpg')}}"width="1324" height="300"/><br>
+                           <img id = "img2" src="{{ asset('/images/2.jpg')}}"width="1324" height="300"/><br>
                            @elseif($cate->id_kateg==3)
-                               <img src="{{ asset('/images/3.jpg')}}"width="1324" height="300"/><br>
+                               <img id = "img2" src="{{ asset('/images/3.jpg')}}"width="1324" height="300"/><br>
                            @elseif($cate->id_kateg==4)
-                               <img src="{{ asset('/images/4.jpg')}}"width="1324" height="300"/><br>
+                               <img id = "img2" src="{{ asset('/images/4.jpg')}}"width="1324" height="300"/><br>
                            @elseif($cate->id_kateg==5)
-                               <img src="{{ asset('/images/5.jpg')}}"width="1324" height="300"/><br>
+                               <img id = "img2" src="{{ asset('/images/5.jpg')}}"width="1324" height="300"/><br>
                            @elseif($cate->id_kateg==6)
-                               <img src="{{ asset('/images/6.jpg')}}"width="1324" height="300"/><br>
+                               <img id = "img2" src="{{ asset('/images/6.jpg')}}"width="1324" height="300"/><br>
                            @elseif($cate->id_kateg==7)
-                               <img src="{{ asset('/images/7.jpg')}}"width="1324" height="300"/><br>
+                               <img id = "img2" src="{{ asset('/images/7.jpg')}}"width="1324" height="300"/><br>
                            @elseif($cate->id_kateg==8)
-                               <img src="{{ asset('/images/888.jpg')}}"width="1324" height="300"/><br>
+                               <img id = "img2" src="{{ asset('/images/888.jpg')}}"width="1324" height="300"/><br>
                            @elseif($cate->id_kateg==9)
-                               <img src="{{ asset('/images/9.jpg')}}"width="1324" height="300"/><br>
+                               <img id = "img2" src="{{ asset('/images/9.jpg')}}"width="1324" height="300"/><br>
                            @endif
                           {{-- <h1>{{$cate->id_kateg}}</h1>--}}
                            <br>

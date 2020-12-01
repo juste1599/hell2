@@ -189,7 +189,7 @@
                                 }
                                 //alert(text);
                                     //document.getElementById("mygtukas1").innerHTML = text;
-                                    window.open(text, "_blank", "toolbar=yes, scrollbars=yes, resizable=yes, top=150,left=500,width=1550, height=500");
+                                    window.open(text, "_blank", "toolbar=yes, scrollbars=yes, resizable=yes, top=150,left=500,width=1000, height=500");
                                 }
 
                                 </script>

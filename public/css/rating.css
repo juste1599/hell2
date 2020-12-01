@@ -13,6 +13,7 @@
     left: 0;
     height: 100%;
     cursor: pointer;
+    font-size: x-large;
 }
 
 .rating label:last-child {
@@ -70,3 +71,4 @@
     max-width: 600px;
     margin-bottom: 10px;
 }
+

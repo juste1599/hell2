@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('turinys')
-    <link href="{{ asset('shop1') }}">
+
 
     <a style="margin: 0 0 15px 15px;" href="{{URL::previous()}}">
         <svg class="bi bi-chevron-compact-left" width="1.5em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -143,10 +143,6 @@
                                 <label for="age412">Šiaip buvau už Šarą, o ne pačią komandą.</label><br>
                             </div>
 
-
-
-
-
                             <div class="form-group col-sm-7">
 
                                 <script>
@@ -220,7 +216,10 @@
                     </div>
 
                 </div>
+                </div>
             </table>
+        </div>
+    </div>
         </div>
     </div>
 

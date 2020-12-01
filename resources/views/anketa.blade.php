@@ -73,11 +73,11 @@
 
                             <div class="form-group col-lg-10">
                                 <h2> 6. Ar esi užlipęs gyvūnui ant uodegos ir neatsiprašęs? </h2>
-                                <input type="radio" id="age16" name="age6" value="30">
-                                <label for="age12">Taip, gailiuosi iki šiol.</label><br>
-                                <input type="radio" id="age26" name="age6" value="60">
-                                <label for="age22">Ne, visada atsiprašau ir pabučiuoju.</label><br>
-                                <input type="radio" id="age36" name="age6" value="100">
+                                <input type="radio" id="age16" name="age16" value="30">
+                                <label for="age16">Taip, gailiuosi iki šiol.</label><br>
+                                <input type="radio" id="age26" name="age26" value="60">
+                                <label for="age26">Ne, visada atsiprašau ir pabučiuoju.</label><br>
+                                <input type="radio" id="age36" name="age36" value="100">
                                 <label for="age36">Neauginu augintinio su uodega.</label><br>
                             </div>
 

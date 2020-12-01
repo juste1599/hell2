@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html >
 <head>
-    <title>Alligator PDR online store</title>
+    <title>Pramogos pragare</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -49,10 +49,10 @@
     <div class="container-fluid">
         <div class="row vertical-align" >
             <div class=" col-sm-2 img-col">
-                <img class="log" src="{{asset('images/log.png')}}" />
+                <img class="log" src="{{asset('images/logotipas.gif')}}" />
             </div>
             <div class="col-sm-4 ">
-                <h1 id="nameAlligator">Alligator PDR tools</h1>
+                <h1 id="nameAlligator">Pramogos pragare</h1>
             </div>
         </div>
     </div>
@@ -62,7 +62,7 @@
     <div class="container-fluid" >
         <ul class="nav navbar-nav navbar-right">
             @auth('admin')
-                <li><a href="{{ route('adminRoutes.admin.signout')}}">Sign out </a></li>
+                <li><a href="{{ route('adminRoutes.admin.signout')}}">Atsijungti </a></li>
             @endauth
         </ul>
     </div>
@@ -73,10 +73,10 @@
         <div class="bg-dark p-4">
 
             <ul class="list-unstyled components">
-                <a href="{{ action('AdminController@index')}}"><div style="text-align: center;"><span class="glyphicon glyphicon-indent-left"></span><h5>Category</h5></div></a>
-                <a href="{{ action('AdminController@users')}}"><div style="text-align: center;"><span class="glyphicon glyphicon-user"></span><h5>Users</h5></div></a>
-                <a href="{{ action('AdminController@product')}}"><div style="text-align: center;"><span class="glyphicon glyphicon-list-alt"></span><h5>Products</h5></div></a>
-                <a href="{{ action('AdminController@orders')}}"><div style="text-align: center;"><span class="glyphicon glyphicon-th-list"></span><h5>Orders</h5></div></a>
+                <a href="{{ action('AdminController@index')}}"><div style="text-align: center;"><span class="glyphicon glyphicon-indent-left"></span><h5>Kategorijos</h5></div></a>
+                <a href="{{ action('AdminController@users')}}"><div style="text-align: center;"><span class="glyphicon glyphicon-user"></span><h5>Naudotojai</h5></div></a>
+                <a href="{{ action('AdminController@product')}}"><div style="text-align: center;"><span class="glyphicon glyphicon-list-alt"></span><h5>Pramogos</h5></div></a>
+                <a href="{{ action('AdminController@orders')}}"><div style="text-align: center;"><span class="glyphicon glyphicon-th-list"></span><h5>Užsakymai</h5></div></a>
             </ul>
 
         </div>

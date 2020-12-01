@@ -80,33 +80,33 @@
         <div  style="margin-left: 7px" class="input-group">
             <label>
                 <input type="radio" name="stars" value="1"  />
-                <span class="icon">(=^ェ^=)</span>
+                <span class="icon">(=^ェ^=)&nbsp;</span>
             </label>
             <label>
                 <input type="radio" name="stars" value="2" />
-                <span class="icon">(=^ェ^=)</span>
-                <span class="icon">(=^ェ^=)</span>
+                <span class="icon">(=^ェ^=)&nbsp;</span>
+                <span class="icon">(=^ェ^=)&nbsp;</span>
             </label>
             <label>
                 <input type="radio" name="stars" value="3" />
-                <span class="icon">(=^ェ^=)</span>
-                <span class="icon">(=^ェ^=)</span>
-                <span class="icon">(=^ェ^=)</span>
+                <span class="icon">(=^ェ^=)&nbsp;</span>
+                <span class="icon">(=^ェ^=)&nbsp;</span>
+                <span class="icon">(=^ェ^=)&nbsp;</span>
             </label>
             <label>
                 <input type="radio" name="stars" value="4" />
-                <span class="icon">(=^ェ^=)</span>
-                <span class="icon">(=^ェ^=)</span>
-                <span class="icon">(=^ェ^=)</span>
-                <span class="icon">(=^ェ^=)</span>
+                <span class="icon">(=^ェ^=)&nbsp;</span>
+                <span class="icon">(=^ェ^=)&nbsp;</span>
+                <span class="icon">(=^ェ^=)&nbsp;</span>
+                <span class="icon">(=^ェ^=)&nbsp;</span>
             </label>
             <label>
                 <input type="radio" name="stars" value="5" />
-                <span class="icon">(=^ェ^=)</span>
-                <span class="icon">(=^ェ^=)</span>
-                <span class="icon">(=^ェ^=)</span>
-                <span class="icon">(=^ェ^=)</span>
-                <span class="icon">(=^ェ^=)</span>
+                <span class="icon">(=^ェ^=)&nbsp;</span>
+                <span class="icon">(=^ェ^=)&nbsp;</span>
+                <span class="icon">(=^ェ^=)&nbsp;</span>
+                <span class="icon">(=^ェ^=)&nbsp;</span>
+                <span class="icon">(=^ェ^=)&nbsp;</span>
             </label>
         </div>
 

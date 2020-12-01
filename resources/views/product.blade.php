@@ -14,13 +14,13 @@
                 <thead>
                 <tr style="border-bottom: 0px">
                     <th style="width:10%;border-bottom: 10px;">ID</th>
-                    <th style="width:10%;border-bottom: 10px;">Product</th>
-                    <th style="width:50%;border-bottom: 10px;">Description</th>
-                    <th style="width:10%;border-bottom: 10px;">Price</th>
-                    <th style="width:10%;border-bottom: 10px;">Length</th>
+                    <th style="width:10%;border-bottom: 10px;">Produktas</th>
+                    <th style="width:50%;border-bottom: 10px;">Aprašymas</th>
+                    <th style="width:10%;border-bottom: 10px;">Kaina</th>
+                   {{-- <th style="width:10%;border-bottom: 10px;">Length</th>
                     <th style="width:10%;border-bottom: 10px;">Diameter</th>
-                    <th style="width:10%;border-bottom: 10px;">Tip</th>
-                    <th style="width:10%;border-bottom: 10px;">Category</th>
+                    <th style="width:10%;border-bottom: 10px;">Tip</th>--}}
+                    <th style="width:10%;border-bottom: 10px;">Kategorija</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -30,9 +30,9 @@
                     <td>{{ $asPro->pavadinimas }}</td>
                     <td>{{ $asPro->aprasymas }}</td>
                     <td>{{ $asPro->kaina }}</td>
-                    <td>{{ $asPro->ilgis }}</td>
+                   {{-- <td>{{ $asPro->ilgis }}</td>
                     <td>{{ $asPro->diametras }}</td>
-                    <td>{{ $asPro->galiuko_aukstis }}</td>
+                    <td>{{ $asPro->galiuko_aukstis }}</td>--}}
                     @foreach($allcategory as $cat)
                     @if($cat->id_kateg === $asPro->fk_prekes_kategorija)
                     <td>{{ $cat->pavadinimas }}</td>

@@ -181,9 +181,9 @@ footer {
     border-radius: 3px 3px 0 0;
     overflow: hidden;
     position: relative;
-    height: 280px;
+  /*  height: 280px;*/
     text-align: center;
-    padding: 2% 2%;
+  /*  padding: 2% 2%;*/
     background:#6A040F ;
 }
 .item .img-wrap img {

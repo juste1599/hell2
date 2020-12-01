@@ -4,32 +4,32 @@
             <div class="row justify-content-center">
                 <div class="col-md-8">
                     <div class="card">
-                        <div class="card-header" id="antraste">Order edit</div>
+                        <div class="card-header" id="antraste">Redaguoti užsakymą</div>
 
                         <div class="card-body">
                     <form class="form-horizontal" role="form" method="POST" action="{{ url('confirmEditedOrder', $selectedOrder->id_uzsakymas) }}">
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
                         <div class="form-group row">
-                            <label class="col-md-3 col-form-label text-md-right" style="margin-left: 30px">Adress</label>
+                            <label class="col-md-3 col-form-label text-md-right" style="margin-left: 30px; color: white">Adresas</label>
                             <div class="col-md-6">
                                 <input type="text" class="form-control" name="adresas" value="{{$selectedOrder->adresas}}">
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label class="col-md-3 col-form-label text-md-right" style="margin-left: 30px">First name</label>
+                            <label class="col-md-3 col-form-label text-md-right" style="margin-left: 30px; color: white">Vardas</label>
                             <div class="col-md-6">
                                 <input type="text" class="form-control" name="vardas" value="{{$selectedOrder->vardas}}">
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label class="col-md-3 col-form-label text-md-right" style="margin-left: 30px">Last name</label>
+                            <label class="col-md-3 col-form-label text-md-right" style="margin-left: 30px; color: white">Pavardė</label>
                             <div class="col-md-6">
                                 <input type="text" class="form-control" name="pavarde" value="{{$selectedOrder->pavarde}}">
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label class="col-md-3 col-form-label text-md-right" style="margin-left: 30px">Order state</label>
+                            <label class="col-md-3 col-form-label text-md-right" style="margin-left: 30px; color: white">Būsena</label>
                             <div class="col-md-6">
                                 <select class="form-control" name="busena">
                                     <option value="{{$selectedOrder->busena}}">{{$selectedOrder->busena}}</option>
@@ -54,7 +54,7 @@
                                 <div class="form-group row mb-0">
                                     <div class="col-md-10 offset-md-4" style="margin-left: -35px">
                                         <button type="submit" id="mygtukas"class="btn btn-primary">
-                                            Edit
+                                            Redaguoti
                                         </button>
                                     </div>
                                 </div>

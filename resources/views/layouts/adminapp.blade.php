@@ -73,10 +73,10 @@
         <div class="bg-dark p-4">
 
             <ul class="list-unstyled components">
-                <a href="{{ action('AdminController@index')}}"><div style="text-align: center;"><span class="glyphicon glyphicon-indent-left"></span><h5>Kategorijos</h5></div></a>
-                <a href="{{ action('AdminController@users')}}"><div style="text-align: center;"><span class="glyphicon glyphicon-user"></span><h5>Naudotojai</h5></div></a>
-                <a href="{{ action('AdminController@product')}}"><div style="text-align: center;"><span class="glyphicon glyphicon-list-alt"></span><h5>Pramogos</h5></div></a>
-                <a href="{{ action('AdminController@orders')}}"><div style="text-align: center;"><span class="glyphicon glyphicon-th-list"></span><h5>Užsakymai</h5></div></a>
+                <a href="{{ action('AdminController@index')}}"><div style="text-align: center; color: #D00000"><span class="glyphicon glyphicon-indent-left"></span><h5>Kategorijos</h5></div></a>
+                <a href="{{ action('AdminController@users')}}"><div style="text-align: center;color: #D00000"><span class="glyphicon glyphicon-user"></span><h5>Naudotojai</h5></div></a>
+                <a href="{{ action('AdminController@product')}}"><div style="text-align: center;color: #D00000"><span class="glyphicon glyphicon-list-alt"></span><h5>Pramogos</h5></div></a>
+                <a href="{{ action('AdminController@orders')}}"><div style="text-align: center;color: #D00000"><span class="glyphicon glyphicon-th-list"></span><h5>Užsakymai</h5></div></a>
             </ul>
 
         </div>

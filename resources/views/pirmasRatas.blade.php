@@ -37,7 +37,7 @@
             </p>
 
             <br>
-            <p> Jums rekomenduoja išbandyti kūdikių vėmalų jūrą, pasinaudoti senovės herojų prakaito pirtimi ar klausyti kankinančių Vergilijaus poemų.</p>
+            <p> Jums rekomenduojame išbandyti kūdikių vėmalų jūrą, pasinaudoti senovės herojų prakaito pirtimi ar klausyti kankinančių Vergilijaus poemų.</p>
 
             <br>
             <p>

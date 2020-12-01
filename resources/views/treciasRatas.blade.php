@@ -37,7 +37,7 @@
             </p>
 
             <br>
-            <p> Jums rekomenduoja išbandyti deginimąsi orkaitėje su pica, amžinas valgymo varžybas, bėgant maratoną per uraganą.</p>
+            <p> Jums rekomenduojama išbandyti deginimąsi orkaitėje su pica, amžinas valgymo varžybas, bėgant maratoną per uraganą.</p>
 
             <br>
             <p>

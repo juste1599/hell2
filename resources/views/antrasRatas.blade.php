@@ -37,7 +37,7 @@
             </p>
 
             <br>
-            <p> Jums rekomenduoja išbandyti kurmio daužymo žaidimą, kur jūs būsite kurmis, nesibaigiantį kritimą nuo Negaros krioklio ir daužymąsi į jo uolas
+            <p> Jums rekomenduoja išbandyti kurmio daužymo žaidimą, kur jūs būsite kurmis, nesibaigiantį kritimą nuo Niagaros krioklio ir daužymąsi į jo uolas
             ar amžiną leidimąsi nuo atrakciono</p>
 
             <br>
